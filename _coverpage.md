@@ -21,7 +21,7 @@
 
 
 
-[GitHub](https://github.com/thinkaboutai)
-[Get Started](README)
-[Wechat](https://open.work.weixin.qq.com/wwopen/sso/3rd_qrConnect?appid=ww94fe0438fd4daa33&redirect_uri=http%3A%2F%2Fhncf56.f3322.net%3A8011&state=91&usertype=member)
+[GitHub](https://github.com/githubgeekrabbit)
+[Blog](https://qu1u1.cn)
+[开始学习](README)
 
