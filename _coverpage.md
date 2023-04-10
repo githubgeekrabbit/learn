@@ -19,9 +19,6 @@
 
 <br>
 
-[Blog](https://qu1u1.cn)
-[Github](https://qu1u1.cn)
-
 
 
 [GitHub](https://github.com/thinkaboutai)
