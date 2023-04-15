@@ -3,7 +3,7 @@
 
 
 
-- Guide
+- golang学习笔记
 
  -  [包](go/golang/包.md)
  -  [包管理工具gomodule](go/golang/包管理工具gomodule.md)
