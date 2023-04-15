@@ -9,9 +9,9 @@
      -   [golang](ebook/01_ES6/)
       - [golang](ebook/01_ES6/)
 
-- 公共课程
+- 异地组网
 
-  - [MySQL](public/01_Mysql/)
+  - [derper服务器搭建](异地组网/derper服务器搭建.md)
   - [Git](public/02_Git/)
   - [数据结构与算法](public/03_Datastructure/)
   - [设计模式](public/04_Designpattern/)
