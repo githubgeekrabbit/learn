@@ -9,3 +9,13 @@
 -  [变量](ebook/01_ES6/)
 - [方法](ebook/01_ES6/)
 
+- Guide
+
+  - [Deploy](deploy.md)
+  - [Helpers](helpers.md)
+  - [Vue compatibility](vue.md)
+  - [CDN](cdn.md)
+  - [Offline Mode (PWA)](pwa.md)
+  - [Server-Side Rendering (SSR)](ssr.md)
+  - [Embed Files](embed-files.md)
+
