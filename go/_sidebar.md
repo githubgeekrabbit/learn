@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
-- 介绍
-- [](README "Think About AI")
+- [介绍](README "Think About AI")
 
 
 
