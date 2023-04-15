@@ -4,10 +4,10 @@
 
 - Go学习笔记
 
--  [包](包.md)
+-  [包](go/golang/包.md)
 - [包管理工具gomodule](go/golang/包管理工具gomodule.md)
--  [变量](ebook/01_ES6/)
-- [方法](ebook/01_ES6/)
+-  [变量](go/golang/变量.md)
+- [方法](go/golang/方法.md)
 
 - Guide
 
