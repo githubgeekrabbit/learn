@@ -3,10 +3,6 @@
 
 
 - golang学习笔记
-
- -  [包](go/golang/包.md)
- -  [包管理工具gomodule](go/golang/包管理工具gomodule.md)
- -  [变量](标识符、关键字、命名规则)
  -  [方法](go/golang/方法.md)
  -   [golang标识符、关键字、命名规则](go/golang/标识符、关键字、命名规则)
  -   [golang变量](标识符、关键字、命名规则)

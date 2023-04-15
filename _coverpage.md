@@ -1,4 +1,4 @@
-![](http://qn.qu1u1.cn/202304070953489.png)
+![](image/logo.png)
 
 
 
@@ -6,9 +6,6 @@
 
 [![github](https://img.shields.io/badge/github-babeltower-brightgreen.svg)](https://github.com/BabelTower/notes) 
 
-
-
-<br>
 
 <span id="busuanzi_container_site_pv" style='display:none'>
     👀 访问量：<span id="busuanzi_value_site_pv"></span> 次
