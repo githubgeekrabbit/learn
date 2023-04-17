@@ -22,7 +22,9 @@ bash hello.sh
 
 # windows和linux下编写的shell格式不一样
 ![Pasted image 20230402183230](http://qn.qu1u1.cn/202304172310542.png)
+
 在windows下编的直接放到linux直接运行会报错
+
 > 因为windows的回车符识别为`M$`,而linux的回车符为`$`,所以回报这个错
 
 ### 可以使用`dos2unix`命令格式把win转linux
