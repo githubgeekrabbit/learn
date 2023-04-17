@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
 - 介绍
-- [](README "Think About AI")
+- [](docsify/learn/README.md "Think About AI")
 
 - 计算机编程笔记
-  - [go](go/)
+  - [go](计算机编程/go/)
   - [shell](shell/)
   - [php](ebook/01_ES6/)
   - [c](linux/)

@@ -23,5 +23,5 @@
 
 [GitHub](https://github.com/githubgeekrabbit)
 [Blog](https://qu1u1.cn)
-[开始学习](README)
+[开始学习](docsify/learn/计算机编程/go/README.md)
 
