@@ -4,7 +4,7 @@
 
 - 计算机编程笔记
   - [go](计算机编程/go/)
-  - [shell](shell/)
+  - [shell](计算机编程/shell/)
   - [php](ebook/01_ES6/)
   - [c](linux/)
   - [前端](linux/)
