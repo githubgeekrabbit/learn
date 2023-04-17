@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
-- [介绍](docsify/learn/计算机编程/go/README.md)
+- [介绍](计算机编程/go/README.md)
 
 
 - golang学习笔记
- -   [标识符、关键字、命名规则](docsify/learn/计算机编程/go/golang/标识符、关键字、命名规则.md)
+ -   [标识符、关键字、命名规则](计算机编程/go/golang/标识符、关键字、命名规则.md)
  -   [变量](docsify/learn/计算机编程/go/golang/变量.md)
  -   [常量](docsify/learn/计算机编程/go/golang/常量.md)
  -   [数据类型](docsify/learn/计算机编程/go/golang/数据类型.md)
