@@ -7,7 +7,8 @@
 
 # 脚本执行
 
--  赋予执行权限，直接运行`
+-  赋予执行权限，直接运行
+
 ```bash
 chmod 755 hello.sh
 
@@ -15,6 +16,7 @@ chmod 755 hello.sh
 ```
 
 - 通过Bash调用直接运行
+
 ```bash
 bash hello.sh
 ```
