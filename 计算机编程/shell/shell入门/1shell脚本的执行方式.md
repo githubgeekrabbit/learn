@@ -44,3 +44,45 @@ yum install unix2dos
 
 unix2dos  [被转换的文件]
 ```
+
+
+#  echo输出命令
+
+
+
+```shell
+echo  [参数] [输出内容]
+
+-e:支持反斜线控制字符转换
+```
+
+## 左删除健 `\b`
+
+```shell
+echo  -e "ab\bc"
+
+
+ac
+```
+
+
+# 换行符`\n`  制表符`\t`
+
+```shell
+echo  -e "a\tb\tc\nd\te\tf"
+
+
+a    b    c
+d    e    f
+```
+
+# 输出颜色
+```shell
+echo  -e "\e[1;31m abcd \e[0m"
+
+
+
+```
+<font color="#ff0000">abcd</font>
+![[Pasted image 20230402180127.png]]
+![[Pasted image 20230402180332.png]]
