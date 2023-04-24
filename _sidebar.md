@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 - 介绍
-- [](docsify/learn/README.md "Think About AI")
+- [](README.md "Think About AI")
 
 - 计算机编程笔记
   - [go](计算机编程/go/)
