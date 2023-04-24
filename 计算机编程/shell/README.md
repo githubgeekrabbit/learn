@@ -1,35 +1,40 @@
+# Shell 教程
 
-![](E:\doc\golang\docs\me.png)
-# Go语言🌻
+Shell 是一个用 C 语言编写的程序，它是用户使用 Linux 的桥梁。Shell 既是一种命令语言，又是一种程序设计语言。
 
-**Go**（又称 **Golang**）是 Google 的 Robert Griesemer，Rob Pike 及 Ken Thompson 开发的一种静态强类型、编译型语言。Go 语言语法与 C 相近，但功能上有：内存安全，GC（垃圾回收），结构形态及 CSP-style 并发计算。
+Shell 是指一种应用程序，这个应用程序提供了一个界面，用户通过这个界面访问操作系统内核的服务。
 
-# 简介😀
+Ken Thompson 的 sh 是第一种 Unix Shell，Windows Explorer 是一个典型的图形界面 Shell。
 
-**Go**（又称**Golang**）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。
 
-罗伯特·格瑞史莫（Robert Griesemer），罗勃·派克（Rob Pike）及肯·汤普逊（Ken Thompson）于2007年9月开始设计Go，稍后Ian Lance Taylor、Russ Cox加入项目。Go是基于Inferno操作系统所开发的。Go于2009年11月正式宣布推出，成为开放源代码项目，并在Linux及Mac OS X平台上进行了实现，后来追加了Windows系统下的实现。在2016年，Go被软件评价公司TIOBE 选为“TIOBE 2016 年最佳语言”。 目前，Go每半年发布一个二级版本（即从a.x升级到a.y）。
 
-# 描述🐳
+---
 
-Go的语法接近C语言，但对于变量的声明有所不同。Go支持垃圾回收功能。Go的并行模型是以东尼·霍尔的通信顺序进程（CSP）为基础，采取类似模型的其他语言包括Occam和Limbo，但它也具有Pi运算的特征，比如通道传输。在1.8版本中开放插件（Plugin）的支持，这意味着现在能从Go中动态加载部分函数。
+## Shell 脚本
 
-与C++相比，Go并不包括如枚举、异常处理、继承、泛型、断言、虚函数等功能，但增加了 切片(Slice) 型、并发、管道、垃圾回收、接口（Interface）等特性的语言级支持。Go 2.0版本将支持泛型，对于断言的存在，则持负面态度，同时也为自己不提供类型继承来辩护。
+Shell 脚本（shell script），是一种为 shell 编写的脚本程序。
 
-不同于Java，Go内嵌了关联数组（也称为哈希表（Hashes）或字典（Dictionaries）），就像字符串类型一样。
+业界所说的 shell 通常都是指 shell 脚本，但读者朋友要知道，shell 和 shell script 是两个不同的概念。
 
-# 撰写风格💪
+由于习惯的原因，简洁起见，本文出现的 "shell编程" 都是指 shell 脚本编程，不是指开发 shell 自身。
 
-在Go中有几项规定，当不匹配以下规定时编译将会产生错误。
+---
 
-1.  每行程序结束后不需要撰写分号（;）。
-2.  大括号（{）不能够换行放置。
-3.  if判断式和for循环不需要以小括号包覆起来。
+## Shell 环境
 
-Go亦有内置gofmt工具，能够自动整理代码多余的空白、变量名称对齐、并将对齐空格转换成Tab。
+Shell 编程跟 JavaScript、php 编程一样，只要有一个能编写代码的文本编辑器和一个能解释执行的脚本解释器就可以了。
 
-# 编译器🐥
+Linux 的 Shell 种类众多，常见的有：
 
-当前有两个Go编译器分支，分别为官方编译器gc和gccgo。官方编译器在初期使用C写成，后用Go重写从而实现自举。Gccgo是一个使用标准GCC作为后端的Go编译器。
+-   Bourne Shell（/usr/bin/sh或/bin/sh）
+-   Bourne Again Shell（/bin/bash）
+-   C Shell（/usr/bin/csh）
+-   K Shell（/usr/bin/ksh）
+-   Shell for Root（/sbin/sh）
+-   ……
 
-官方编译器支持跨平台编译（但不支持CGO），允许将源代码编译为可在目标系统、架构上执行的二进制文件。
+本教程关注的是 Bash，也就是 Bourne Again Shell，由于易用和免费，Bash 在日常工作中被广泛使用。同时，Bash 也是大多数Linux 系统默认的 Shell。
+
+在一般情况下，人们并不区分 Bourne Shell 和 Bourne Again Shell，所以，像 **#!/bin/sh**，它同样也可以改为 **#!/bin/bash**。
+
+#! 告诉系统其后路径所指定的程序即是解释此脚本文件的 Shell 程序。
