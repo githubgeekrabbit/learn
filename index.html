@@ -7,7 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  
+  <link rel="stylesheet" href="//unpkg.com/mermaid/dist/mermaid.min.css" />
+
 </head>
 <body>
   <div id="app"></div>
@@ -36,6 +37,20 @@
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       },//添加搜索框
 
+
+      markdown: {
+    renderer: {
+      code: function(code, lang) {
+        if (lang === "mermaid") {
+          return (
+            '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
+          );
+        }
+        return this.origin.code.apply(this, arguments);
+      }
+    }
+  },
+
       
     
       loadSidebar: true
@@ -50,10 +65,8 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shellsession.min.js"></script> <!-- shell -->
   
 
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
-  <script>mermaid.initialize({ startOnLoad: true });</script>
+
+  <script type="text/javascript" src="//unpkg.com/mermaid/dist/mermaid.min.js"></script>
 
   
    <!-- go代码高亮 -->
@@ -107,6 +120,8 @@
           },
       });
 </script>
+
+
 
 
 </body>
