@@ -4,7 +4,7 @@
 
 > 基于 Obsidian+Docsify+Github Pages 的个人知识库
 
-[![github](https://img.shields.io/badge/github-babeltower-brightgreen.svg)](https://github.com/BabelTower/notes) 
+[![github](https://img.shields.io/badge/github-babeltower-brightgreen.svg)](https://github.com/githubgeekrabbit) 
 
 
 <span id="busuanzi_container_site_pv" style='display:none'>
