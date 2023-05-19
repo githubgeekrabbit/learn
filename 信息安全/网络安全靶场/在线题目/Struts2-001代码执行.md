@@ -1,4 +1,4 @@
-0x01 漏洞概述
+# struts-s2-001 代码执行漏洞
 1、漏洞名称
 漏洞名称：Struts Remote Code Exploit
 漏洞编号：Struts2-001
